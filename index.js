@@ -6,8 +6,8 @@ function Scooter(year, color, model ){
 
 function Driver (name,age, experience){
   this.name = name 
-  this.color = color
-  this.model = model
+  this.age = age
+  this.experience = experience
 }
 
 function PickupLocation(address, city){
